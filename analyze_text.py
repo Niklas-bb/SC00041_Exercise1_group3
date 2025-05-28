@@ -1,4 +1,14 @@
-My_file = "/home/user/Desktop/sample.txt" 
+#Attempt to remove hard coded input
+#My_file = "/home/user/Desktop/sample.txt" 
+
+import sys
+
+if len(sys.argv) < 2:
+    print("Usage: python analyze_text.py <input_file>")
+    sys.exit(1)
+
+My_file = sys.argv[1]
+
 
 print("Line\tChars\tUppercase\t% Upper")
 
