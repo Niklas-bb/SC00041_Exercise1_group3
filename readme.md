@@ -4,7 +4,7 @@ This tiny Python script iteratres through your text and calculates simple statis
 
 # Dependencies
 
-Python 3.9 or higher.
+Python 3.0 or higher.
 
 # Input file 
 
@@ -12,7 +12,7 @@ Provide a plain text file with UTF-8 encoding.
 
 # Output
 
-The script prints headers, then statistics for each line as a separate line. Nothing is returned.
+The script prints headers, then statistics for each line as a separate output row. Nothing is returned.
 
 # Version
 
