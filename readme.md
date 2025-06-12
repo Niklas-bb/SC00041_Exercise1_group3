@@ -6,6 +6,12 @@ This tiny Python script iteratres through your text and calculates simple statis
 
 Python 3.0 or higher.
 
+# Usage
+```
+conda env create -f environment.yaml
+conda activate analyze_text python analyze_text.py <YOUR_FILE>.txt
+```
+
 # Input file 
 
 Provide a plain text file with UTF-8 encoding.
